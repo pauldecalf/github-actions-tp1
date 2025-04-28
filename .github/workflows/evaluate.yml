@@ -6,7 +6,6 @@ on:
     paths:
       - 'model.py'
       - 'metrics.py'
-
 jobs:
   evaluate:
     runs-on: ubuntu-latest
