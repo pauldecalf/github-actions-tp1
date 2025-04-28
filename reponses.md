@@ -50,3 +50,11 @@ Que contient-il ?
 -En poussant plusieurs fois des modifications, j'ai observé que le workflow "Evaluate Model" échouait lorsque l'accuracy générée par metrics.py était inférieure à 0.9.
 Par exemple, une accuracy de 0.879 a entraîné l'échec du workflow, comme prévu.
 Lorsque l'accuracy est supérieure ou égale à 0.9, le workflow réussit normalement.
+
+32. Crée un workflow manuel .github/workflows/manual.yml qui peut être déclenché manuellement.
+
+- J'ai créé un workflow manual.yml qui utilise workflow_dispatch pour permettre de choisir un environnement (dev, staging ou prod) avant d'exécuter les tests.
+Ce workflow est déclenchable directement depuis l'interface GitHub via un bouton "Run workflow".
+
+36. Vérifie dans l'onglet "Releases" de ton repository. Que constates-tu ?
+- Il y a désormais un Tags v1.0.0 ans les releases/tags
