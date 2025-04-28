@@ -35,4 +35,15 @@ Cela confirme que le workflow de commentaires fonctionne correctement.
 Ce workflow construit une image Docker à partir du Dockerfile et l’exécute pour tester le fonctionnement de l’application.
 Après avoir poussé les modifications, le workflow s'est déclenché correctement et a validé que l'image Docker fonctionne.
 
+27. Commit et pousse ces modifications. Vérifie l'onglet Actions et télécharge l'artifact
+généré.
+Que contient-il ?
+- il contient {
+  "accuracy": 0.869,
+  "precision": 0.899,
+  "recall": 0.846,
+  "f1_score": 0.827
+}
+
+
 
