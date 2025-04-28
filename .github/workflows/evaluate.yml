@@ -1,11 +1,7 @@
 name: Run evaluate.yml
 # Vérification de l'exec de evaluate
-on:
-  push:
-    branches: [ main ]
-    paths:
-      - 'model.py'
-      - 'metrics.py'
+on: [push]
+
 jobs:
   evaluate:
     runs-on: ubuntu-latest
