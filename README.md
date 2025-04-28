@@ -1,3 +1,3 @@
-# MLOps GitHub Actions TP
+# Mon Projet GitHub Actions TP
 
-![Build Status](https://github.com/ton-username/mlops-github-actions-tp/actions/workflows/badge.yml/badge.svg)
+![Build Status](https://github.com/pauldecalf/github-actions-tp1/actions/workflows/badge.yml/badge.svg)
