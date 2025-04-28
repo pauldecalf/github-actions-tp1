@@ -1,4 +1,5 @@
 # model.py
+# Petit commentaire pour tester le workflow de PR comment
 
 def predict_sentiment(text):
     """Predict the sentiment of a given text as positive, negative, or neutral."""
