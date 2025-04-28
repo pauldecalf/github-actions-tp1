@@ -19,10 +19,9 @@ jobs:
 
       - name: Generate documentation
         run: |
-            pip install pydoc-markdown
-            mkdir -p docs
-            pydoc-markdown --loader python.path=model.py > docs/model.md
-    
+          pip install pydoc-markdown
+          mkdir -p docs
+          pydoc-markdown --module model > docs/model.md
 
       - name: Upload documentation
         uses: actions/upload-artifact@v4

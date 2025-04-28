@@ -1,6 +1,6 @@
 # model.py
 
-"""Model module for sentiment prediction r. .""" 
+"""Model module for sentiment prediction r.""" 
 def predict_sentiment(text):
     """Predict the sentiment of a given text as positive, negative, or neutral."""
     if not text:
