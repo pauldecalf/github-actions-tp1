@@ -45,5 +45,8 @@ Que contient-il ?
   "f1_score": 0.827
 }
 
+30. Pousse plusieurs fois les modifications et observe les résultats. Que constates-tu ?
 
-
+-En poussant plusieurs fois des modifications, j'ai observé que le workflow "Evaluate Model" échouait lorsque l'accuracy générée par metrics.py était inférieure à 0.9.
+Par exemple, une accuracy de 0.879 a entraîné l'échec du workflow, comme prévu.
+Lorsque l'accuracy est supérieure ou égale à 0.9, le workflow réussit normalement.
