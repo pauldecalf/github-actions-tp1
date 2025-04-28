@@ -1,4 +1,4 @@
-name: Build Status Badge
+name: Run badge.yml
 
 on:
   push:

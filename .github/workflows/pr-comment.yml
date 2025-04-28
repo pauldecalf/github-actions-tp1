@@ -1,4 +1,4 @@
-name: PR Comment
+name: Run pr-comment.yml
 permissions:
   pull-requests: write
 on:

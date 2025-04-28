@@ -1,4 +1,4 @@
-name: Docker Build
+name: Run docker.yml
 
 on:
   push:
