@@ -1,9 +1,9 @@
 name: Lint Code
 
 on: [push, pull_request]
-  """
+"""
 Ajoute des commentaires docstring à ton code et vérifie que le lint passe.
-    """
+"""
 jobs:
   lint:
     runs-on: ubuntu-latest
